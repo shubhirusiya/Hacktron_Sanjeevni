@@ -80,16 +80,15 @@ const LandingPage = () => {
           <p style={{marginLeft:'2vw'}}>
             Our mission is to provide a comprehensive platform that connects patients with healthcare providers, 
             ensuring easy access to medical services and information.
-            We aim to empower individuals to take control of their health by offering resources for blood donation,
-            online appointments, and nearby hospital information.
-            We are committed to improving healthcare accessibility and enhancing the overall patient experience.
+            We aim to empower individuals to take control of their health by offering resources for blood donation,mental wellness and nearby hospital information.
+            We are committed to improving healthcare accessibility and enhancing the overall experience.
           </p>
           <div className="doctor">
             <img src={doctorimg} alt="Doctor" />
           </div>
         </div>
       </div>
-      <div className={`testimonials ${isScrolled ? 'shrink' : ''}`}>
+      <div className={`testimonials ${isScrolled ? 'shrink' : ''}`} style={{ marginTop: '40px' }}>
         <h2>What Our Users Say</h2>
         <div className="testimonial-container">
           <div className="testimonial-box">
