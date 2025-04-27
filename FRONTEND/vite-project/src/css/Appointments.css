@@ -1,18 +1,19 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif; /* Change font style to Poppins */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
 }
-p{
+p {
   color: #000; /* Set text color to black */
   font-size: 16px; /* Set font size to 16px */
   margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */  
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center align the paragraph */
+  font-family: 'Poppins', Arial, sans-serif; /* Set font style to Poppins */
 }
 .appointments {
   width: 300px; /* Increased width */
@@ -33,6 +34,7 @@ p{
 .appointments-heading {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Poppins', Arial, sans-serif; /* Set font style to Poppins */
 }
 
 .appointments-container {
@@ -58,19 +60,24 @@ p{
 .input-container {
   display: flex;
   align-items: center;
+  justify-content: center; /* Align horizontally center */
   gap: 10px; /* Add spacing between the text area and the button */
   width: 100%; /* Ensure the container takes full width */
 }
 
 .appointments-textarea {
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  width: 40%;
   display: flex ;/* Allow the text area to take up available space */
   resize: none; /* Prevent resizing for better alignment */
   height: 25px; /* Set a fixed height for the text area */
   padding: 10px; /* Add padding for better usability */
   font-size: 16px; /* Increase font size for better readability */
-  border: 1px solid #ccc; /* Add a border */
+  border: 1px solid #191818;
+  background-color: #ebeaea; /* Add a border */
   border-radius: 25px; /* Add rounded corners */
+  color: #000; /* Set input text color to black */
 }
 
 .submit-button {
