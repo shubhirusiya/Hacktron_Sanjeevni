@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'; // Add this import
 import '../css/LandingPage.css';
 import heroimage from '../assets/hero-image.jpg';
 import blooddonation from '../assets/blooddonation.avif';
-import appointmentimg from '../assets/appointments.png';
+import mentalwellness from '/Mental-Wellness-1-scaled-1.webp'; // Fixed path for the image
 import hospitalimg from '../assets/hospitals.webp';
 import doctorimg from '../assets/doctor.jpg';
 
@@ -53,8 +53,8 @@ const LandingPage = () => {
             </button>
           </div>
           <div className="content-box">
-            <img src={appointmentimg} alt="Appointments" />
-            Get online appointments with doctors
+            <img src={mentalwellness} alt="Appointments" />
+            Get your personalized music therapy
             <button 
               className="content-button"
               onClick={() => handleLearnMoreClick('/appointments')}

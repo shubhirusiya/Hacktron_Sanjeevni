@@ -112,20 +112,22 @@
   /* Tab Styles - Modern and attractive */
   .blood-availability-wrapper .tabs {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center align the buttons in the div */
+    align-items: center; /* Vertically align the buttons */
     margin-bottom: 2rem;
     gap: 2rem;
     position: relative;
   }
   
   .blood-availability-wrapper .tab-btn {
-    padding: 0.5rem 0.5rem;
+    padding: 1rem;
+    align-items: center;
     padding-top: 0rem;
-    background-color: rgba(181, 101, 101, 0.7);
-    color: #7c6363;
+    background-color: rgba(124, 6, 6, 0.955);
+    color: #c4c0c0;
     margin-right: 1rem;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 1rem;
     font-weight: 0;
     cursor: pointer;
@@ -133,15 +135,16 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     position: relative;
     overflow: hidden;
+    height: 50px; /* Reduced height for "Need Blood" and "Donate Blood" buttons */
   }
   
   .blood-availability-wrapper .tab-btn:hover {
-    background-color: rgba(229, 57, 53, 0.08);
+    background-color: #8b0000; /* Changed hover color to dark red */
     transform: translateY(-2px);
   }
   
   .blood-availability-wrapper .tab-btn.active {
-    background: linear-gradient(to right bottom, #e53935, #c62828);
+    background: linear-gradient(to right bottom, #b71c1c, #c62828); /* Changed to a darker red */
     color: white;
     box-shadow: 0 4px 12px rgba(229, 57, 53, 0.3);
   }
